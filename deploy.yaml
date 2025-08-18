@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest  # You can pin to a specific version like nginx:1.25
+        image: nginx:1.28  # You can pin to a specific version like nginx:1.25
         ports:
         - containerPort: 80
